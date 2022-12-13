@@ -1,8 +1,15 @@
 # DataDog log downloader
 
-Download logs from DataDog via the API.
+Download logs from DataDog via the API. Focusing on v1 api as v2 is still in beta.
 This allows you to download a large number of logs matching a particular query rather than being bound by the 5000 limit imposed on the export button in the UI.
 Logs are output as a JSON file.
+
+FeatureD APIs:
+Get Events
+Search Events
+Search Logs
+
+
 
 ## Usage
 
